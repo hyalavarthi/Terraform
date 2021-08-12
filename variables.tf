@@ -7,7 +7,7 @@ variable "subscription_id" {
 }
 
 variable "resource_group_name" {
-  description = "The Azure location where all resources in this example should be created"
+  description = "Azure Resource Group Name"
 }
 
 variable "azurerm_app_service_plan" {
