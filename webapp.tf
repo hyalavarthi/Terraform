@@ -4,8 +4,8 @@ resource "azurerm_app_service_plan" "ASP" {
   resource_group_name = "${azurerm_resource_group.RG.name}"
   
   sku {  
-    tier = "Standard"  
-    size = "S1"  
+    tier = "Free"  
+    size = "F1"  
   }  
 }  
   

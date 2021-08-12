@@ -18,3 +18,12 @@ variable "azurerm_app_service" {
   description = "Azure Webapp Service"
 }
 
+variable "component" {
+  type    = list
+  default = ["dev", "test", "staging", "production"]
+}
+
+variable "azurerm_storage_account" {
+  description = "Azure Webapp Service"
+}
+
