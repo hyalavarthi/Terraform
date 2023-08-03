@@ -10,7 +10,7 @@ stages:
   jobs:
   - job: Build
     pool:
-      vmImage: 'vs2017-win2016'
+      vmImage: 'win-latest'
 
 
     steps:
